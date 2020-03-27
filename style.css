@@ -5,7 +5,10 @@
 }
 
 body {
-	background-color: #3B3B98;
+	background-image: url('images/blur.jpg');
+	background-position: center center;
+    background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 	display: flex;
 	font-family: 'Muli', sans-serif;
@@ -31,7 +34,7 @@ input[type=checkbox] {
 }
 
 .container {
-	background-color: #23235B;
+	background-color: #2A5E56;
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 	padding: 20px;
 	width: 350px;
@@ -71,7 +74,9 @@ input[type=checkbox] {
 	cursor: pointer;
 	font-size: 16px;
 	padding: 8px 12px;
-	background-color: #3B3B98;
+	border-radius: 5%;
+	background-color: #04A777;
+	font-family: 'Roboto', sans-serif;
 }
 
 .btn-large {
@@ -86,13 +91,19 @@ input[type=checkbox] {
 	margin: 15px 0;
 }
 
+.desc {
+	font-size: 12px;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+}
+
 @media screen and (max-width: 400px) {
 	.result-container {
 		font-size: 14px;
 	}
 }
 
-/* SOCIAL PANEL CSS */
 .social-panel-container {
 	position: fixed;
 	right: 0;
@@ -109,7 +120,7 @@ input[type=checkbox] {
 	background-color: #fff;
 	border-radius: 16px;
 	box-shadow: 0 16px 31px -17px rgba(0,31,97,0.6);
-	border: 5px solid #001F61;
+	border: 5px solid #2A5E56;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -123,7 +134,7 @@ input[type=checkbox] {
 
 .social-panel button.close-btn {
 	border: 0;
-	color: #97A5CE;
+	color: #04A777;
 	cursor: pointer;
 	font-size: 20px;
 	position: absolute;
@@ -136,7 +147,7 @@ input[type=checkbox] {
 }
 
 .social-panel p {
-	background-color: #001F61;
+	background-color: #2A5E56;
 	border-radius: 0 0 10px 10px;
 	color: #fff;
 	font-size: 14px;
@@ -156,14 +167,15 @@ input[type=checkbox] {
 }
 
 .social-panel p a {
-	color: #FF7500;
+	color: #fff;
+	font-weight: bold;
 	text-decoration: none;
 }
 
 .social-panel h4 {
 	margin: 20px 0;
-	color: #97A5CE;	
-	font-family: 'Muli';	
+	color: #04A777;	
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;	
 	line-height: 18px;
 	text-transform: uppercase;
@@ -181,9 +193,9 @@ input[type=checkbox] {
 }
 
 .social-panel ul li a {
-	border: 1px solid #DCE1F2;
+	border: 1px solid #2A5E56;
 	border-radius: 50%;
-	color: #001F61;
+	color: #2A5E56;
 	font-size: 20px;
 	display: flex;
 	justify-content: center;
@@ -194,14 +206,15 @@ input[type=checkbox] {
 }
 
 .social-panel ul li a:hover {
-	border-color: #FF6A00;
-	box-shadow: 0 9px 12px -9px #FF6A00;
+	border-color: #04A777;
+	color: #04A777;
+	box-shadow: 0 9px 12px -9px #04A777;
 }
 
 .floating-btn {
 	border-radius: 26.5px;
-	background-color: #001F61;
-	border: 1px solid #001F61;
+	background-color: #2A5E56;
+	border: 1px solid #2A5E56;
 	box-shadow: 0 16px 22px -17px #03153B;
 	color: #fff;
 	cursor: pointer;
@@ -212,11 +225,12 @@ input[type=checkbox] {
 	bottom: 20px;
 	right: 20px;
 	z-index: 999;
+	font-weight: bold;
 }
 
 .floating-btn:hover {
 	background-color: #ffffff;
-	color: #001F61;
+	color: #04A777;
 }
 
 .floating-btn:focus {
@@ -224,10 +238,10 @@ input[type=checkbox] {
 }
 
 .floating-text {
-	background-color: #001F61;
+	background-color: #2A5E56;
 	border-radius: 10px 10px 0 0;
 	color: #fff;
-	font-family: 'Muli';
+	font-family: 'Roboto', sans-serif;
 	padding: 7px 15px;
 	position: fixed;
 	bottom: 0;
@@ -235,11 +249,6 @@ input[type=checkbox] {
 	transform: translateX(-50%);
 	text-align: center;
 	z-index: 998;
-}
-
-.floating-text a {
-	color: #FF7500;
-	text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
