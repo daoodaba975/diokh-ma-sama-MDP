@@ -46,15 +46,11 @@ clipboardEl.addEventListener('click', () => {
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
-    alert('Password copied to clipboard!');
+    alert('Mot de passe copié dans le presse-papiers 📃');
 })
 
 //Generate password function 
 function generatePassword(lower, upper, number, symbol, length){
-    // 1. Init pw var
-    // 2. filter out unchecked types
-    // 3. Loop over length all generater function for each type
-    // 4. Add final pw to the pw var and return
 
     let generatedPassword = '';
 
@@ -103,7 +99,7 @@ function getRandomSymbol() {
     return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
-// SOCIAL PANEL JS
+
 const floating_btn = document.querySelector('.floating-btn');
 const close_btn = document.querySelector('.close-btn');
 const social_panel_container = document.querySelector('.social-panel-container');
