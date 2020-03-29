@@ -26,6 +26,6 @@ This is a simple password generator app with JavaScript.
 
 ### License 🎫
 
-Diokh Ma Sama MDP** is released under the **[MIT License](https://github.com/daoodaba975/diokh-ma-sama-MDP/blob/master/License.md)** ✔
+**Diokh Ma Sama MDP** is released under the **[MIT License](https://github.com/daoodaba975/diokh-ma-sama-MDP/blob/master/License.md)** ✔
 
 > **Enjoy!** 🙏🏾
